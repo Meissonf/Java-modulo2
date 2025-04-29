@@ -103,7 +103,5 @@ Estos ejercicios están diseñados para permitirte **descubrir la diferencia ent
 
 **Extensión para gamificación**:
 - Otorga *puntos* por cada mascota cuidada.
-- Reta a los estudiantes a crear *rankings* de cuidadores más activos.
-
 ---
 
