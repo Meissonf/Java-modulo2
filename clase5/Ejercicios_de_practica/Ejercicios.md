@@ -9,36 +9,13 @@ En programación orientada a objetos, **la relación entre clases** es fundament
 - **Agregación**: Es una relación **débil**, donde una clase contiene a otra pero **no es dueña de su ciclo de vida**. Ejemplo: un *Curso* puede tener *Estudiantes*, pero si el curso se elimina, los estudiantes no necesariamente desaparecen.
 
 ### Diagrama de Clase: Composición
-
-```plantuml
-@startuml
-class Libro {
-  -titulo: String
-  -capitulos: List<Capitulo>
-}
-
-class Capitulo {
-  -titulo: String
-  -numero: int
-}
+![Diagrama 1](./diagramas/diagrama1.png)
 
 Libro o-- "1..*" Capitulo : composición
-@enduml
-```
+
+
 ### Diagrama de Clase: Agregación
-```plantuml
-@startuml
-class Curso {
-  -nombre: String
-  -estudiantes: List<Estudiante>
-}
-
-class Estudiante {
-  -nombre: String
-}
-
-Curso --o "0..*" Estudiante : agregación
-@enduml
+![Diagrama 2](./diagramas/diagrama2.png)
 
 ---
 # Ejercicios progresivos y didácticos
