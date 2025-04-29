@@ -24,7 +24,7 @@ class Capitulo {
 
 Libro o-- "1..*" Capitulo : composición
 @enduml
-
+```
 ### Diagrama de Clase: Agregación
 ```plantuml
 @startuml
