@@ -11,7 +11,6 @@ En programación orientada a objetos, **la relación entre clases** es fundament
 ### Diagrama de Clase: Composición
 ![Diagrama 1](./diagramas/diagrama1.png)
 
-Libro o-- "1..*" Capitulo : composición
 
 
 ### Diagrama de Clase: Agregación

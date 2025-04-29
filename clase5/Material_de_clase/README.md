@@ -8,3 +8,7 @@ Este es un proyecto Java.
 - `Productos/`: Contiene clases relacionadas con productos
 - `Operaciones/`: Contiene clases relacionadas con operaciones
 - `documentacion/`: Contiene documentación del proyecto
+
+## Diagrama de Clases
+
+![Diagrama de Clases](./documentacion/diagrama%20clases.png)
