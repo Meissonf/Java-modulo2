@@ -46,7 +46,7 @@ Podrías escribir todo en una sola función, con muchos "si esto... entonces aqu
 El Patrón Strategy te permite tener una familia de algoritmos (como los distintos métodos de envío) y poner cada uno en su propia “cajita” (clase). Luego, puedes decirle a tu programa:
 “Hoy vamos a usar este algoritmo, pero mañana podemos cambiarlo por otro sin tocar nada más.”
 
- 🔔 **¿Qué beneficios tiene?**
+**¿Qué beneficios tiene?**
 Separa la lógica de cómo se hace algo del lugar donde se usa.
 Ejemplo: no necesitas saber cómo se calcula el precio del envío, solo decir usa este método.
 
